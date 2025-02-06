@@ -1,5 +1,5 @@
 const stripe = require("stripe");
-const secretky ="sk_test_51QUmEbDZERtyZuoCymo8OuIy2pAKYXV8PywYPGmp2myEBPCNcIremMTpHH5MW6yXlgknXxa8xNeEOP2OZl2OQJDS00fiOm02ga";
+const secretky =".........................";
 const Stripe = stripe(secretky);
 const payment = async (req, res) => {
     try {
